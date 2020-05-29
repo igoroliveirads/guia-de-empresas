@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vendas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="paginas.css" type="text/css">
+        <script src="validacao_forms.js"></script>
+    </head>
+
+    <body>
+        <!--Menu-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="marketing.html">Marketing</a>
+            <a href="vendas.html" class="active">Vendas</a>
+            <a href="planejamento.html">Planejamento Estratégico</a>
+            <a href="projetos.html">Gerenciamento de Projetos</a>
+        </div> 
+
+        <!-- seção home-->
+        <div id='home'>
+            <h1>Vendas</h1>
+        </div>
+
+        <!--seção de conteúdo-->
+        <div id="conteudo">
+            <!--texto-->
+            <div id="texto">
+                <h2>O que são vendas</h2>
+
+                <p>Para começar, vamos nos concentrar no básico do básico e responder à pergunta acima. E se você acha que ela é básica demais, responda para nós: como você definiria o que são vendas?</p>
+                <p>e você pensou por alguns segundos a mais do que imaginava antes de encontrar uma resposta, percebeu uma verdade pouco observada quando o assunto são vendas: todo mundo acha que já sabe tudo sobre isso, até precisar falar sério sobre o assunto. </p>
+                <p>Basicamente, vendas envolvem 2 fatores:</p>
+
+                <ol>
+                    <li>Uma oferta de valor;</li>
+                    <li>uma recompensa por essa oferta.</li>
+                </ol>
+
+                <p>Em geral, a oferta é um produto ou serviço, e a recompensa é dinheiro. Mas pense no exemplo de um evento gratuito. A oferta envolveria as atrações do evento, enquanto a recompensa pedida seria o tempo e a atenção dos convidados. Percebe como a venda vai além de pedir dinheiro por algo?</p>
+                <p>Vender se trata de oferecer um item de valor em troca de algo. Isso se aplica a tudo. Até quando você precisa convencer alguém de uma ideia, é comum dizer que precisa “vender a ideia”. </p>
+                <p>Logo, uma boa definição seria dizer que vendas são como um jogo, no qual temos uma soma positiva. Em outras palavras, vendedor e comprador percebem que estão ganhando na relação de troca de valores.</p>
+
+                <h3>O que é o processo de vendas</h3>
+
+                <p>Como vimos, vendas exigem persuasão e englobam também uma oferta de valor para o cliente. Esses dois fatores estão 100% sob seu controle, desde que você siga processos claros e testados. </p>
+                <p>Em outras palavras, você não precisa se preocupar demais em seguir costumes ou inovar em cada etapa da venda, mas sim em fazer o que é melhor para os clientes. Ponto final.</p>
+                <p>Com isso em mente, nunca se esqueça que para montar um mecanismo escalável de vendas, você precisa fazer duas coisas:</p>
+
+
+                <ul>
+                    <li>Conhecer o comportamento das pessoas para quem deseja vender;</li>
+                    <li>Usar esse conhecimento para conduzir essas pessoas até que elas cheguem ao “sim”. </li>
+                </ul>
+
+                <p>E sabe qual é o melhor jeito de tomar essas duas ações?  Seguir passos bem estabelecidos. É aí que entra o tão falado ciclo de vendas. Mas o que é isso, afinal?</p>
+                <p>Em resumo, o processo de vendas é uma série de passos que você pode repetir com todos os possíveis clientes, e que gera resultados consistentes com o passar do tempo. </p>
+            
+            
+            </div>
+
+            <div id="secao_video">
+                <div class="texto_video">
+                    <p>Marcelo Politi SEO do Rooftop 5 & Centro de Convenções, explica todas as estapas do processo comercial.</p>
+                </div>
+
+                <div class="video">
+                    <iframe width="420" height="300" 
+                        src="https://www.youtube.com/embed/3D7Dbtgsdkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <!--Gambiarra porque a div do furmulário etava ficado em baixo da vid do vídeo-->
+            <div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+            </div>
+        
+            <!--Formulário de download do ebook-->
+
+            <div id="ebook">
+                <p>Baixar E-Book</p>
+                <form name="register" action="ebook/vendas.pdf" method="post" onsubmit="return validacao();" novalidate>
+                    <fieldset id="cadastrar">
+                        <legend> Cadastro </legend>
+                        
+                        <label for="nome"> Nome </label> 
+                        <input type="text" name="nome"/>
+            
+                        <label for="sobrenome"> Sobrenome </label> 
+                        <input type="text" name="sobrenome"/>
+            
+                        <label for="empresa"> Empresa </label> 
+                        <input type="text" name="empresa"/>
+                        
+                        <label for="cargo"> Cargo </label> 
+                        <input type="text" name="cargo"/>
+                        
+                        <label for="email"> Email </label>
+                        <input type="email" name="email"/>
+                        
+                        <button type="submit" name="enviar"> Cadastrar </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--Seção do Rodapé-->
+
+    <div id="rodape">
+        <a href="#home"><img src="img/icone_voltar.png" width="50px" height="50px"></a>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/duda.png" width="96" height="96">
+                        <p>Maria Eduarda Meregali</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/mariaeduarda.meregali" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/duda_meregali" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/igor.png" width="96" height="96">
+                        <p>Igor Oliveira de Sousa</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/igoroliveirads" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/igoroliveirads" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+    </body>
+</html>

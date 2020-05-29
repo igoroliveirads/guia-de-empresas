@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marketing</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="paginas.css" type="text/css">
+        <script src="validacao_forms.js"></script>
+    </head>
+
+    <body>
+        <!--Menu-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="marketing.html" class="active">Marketing</a>
+            <a href="vendas.html">Vendas</a>
+            <a href="planejamento.html">Planejamento Estratégico</a>
+            <a href="projetos.html">Gerenciamento de Projetos</a>
+        </div> 
+
+        <!-- seção home-->
+        <div id='home'>
+            <h1>Marketing</h1>
+        </div>
+
+        <!--seção de conteúdo-->
+        <div id="conteudo">
+            <!--texto-->
+            <div id="texto">
+                <h2>Objetivos do Marketing</h2>
+                <ol>
+                    <li> <b>Vender mais</b>
+                        <p>Vender: sim, esse é um dos principais objetivos do marketing para organizações que colocam produtos ou serviços no mercado.</p>
+                        <p>É papel do marketing, então, preparar as estratégias para que elas atendam às necessidades dos clientes e aumentem as chances de sucesso das vendas.</p>
+                    </li>
+
+                    <li><b>Fidelizar clientes</b>
+                        <p>Mas o papel do marketing não termina na venda. A empresa deve continuar próxima do cliente para que ele não esqueça a marca e volte a comprar outras vezes.</p>
+                        <p>Vale lembrar uma frase clássica: fidelizar clientes é muito mais barato que captar novos compradores.</p>
+                    </li>
+                    
+                    <li><b>Gerenciar uma marca</b>
+                        <p>Marketing tem tudo a ver com branding. A construção de uma marca acontece na mente dos consumidores.</p>
+                        <p>E, para que eles absorvam a imagem da marca, ela precisa tornar os seus valores e propósitos tangíveis por meio das estratégias de marketing ― em uma peça de publicidade e na definição do preço dos produtos, por exemplo.</p>
+                    </li>
+
+                    <li><b>Engajar colaboradores</b>
+                        <p>As estratégias de marketing não miram apenas para fora da empresa. Dentro das suas fronteiras, existe um público que é essencial para o sucesso do negócio: os colaboradores.</p>
+                        <p>Por isso, o marketing ― ou melhor, o endomarketing ― também pode ajudar a engajar o público interno, fazê-los mais felizes com o seu trabalho e torná-los propagadores da marca.</p>
+                    </li>
+                </ol>
+
+                <h3>Ciclo de vida do produto</h3>
+
+                <p>Isso vale para a vida, mas também para os produtos, para as categorias de produtos, para as marcas e para os mercados. De maneira geral (não é uma regra), eles passam por quatro fases, que vamos detalhar a seguir.</p>
+                <p>As empresas precisam, então, ajustar as estratégias de marketing ao ciclo e equilibrar seu portfólio de produtos para passar por esses estágios com o melhor aproveitamento e sem prejudicar suas operações.</p>
+                <p>Vamos ver agora quais são os estágios do ciclo de vida de um produto:</p>
+                <img src="img/marketing1.png" height="300px" width="auto">
+                <ul>
+                    <li><b>Introdução</b>
+                        <p>A primeira fase se refere ao lançamento do produto no mercado, depois de investir em pesquisa e desenvolvimento. Apesar do otimismo, é preciso agir com cautela.</p>
+                        <p>As vendas tendem a ser baixas, já que o produto ainda está sendo introduzido, e as altas despesas de lançamento, divulgação e educação do mercado inibem a lucratividade.</p>
+                    </li>
+
+                    <li><b>Introdução</b>
+                        <p>Na fase de crescimento, o produto já foi aceito no mercado e alcança uma alta procura. Com a educação dos consumidores, o desejo pelo produto tende a aumentar exponencialmente!</p>
+                        <p>Os lucros também têm um aumento substancial, pois o faturamento já começa a superar as despesas com publicidade.</p>
+                    </li>
+
+                    <li><b>Maturidade</b>
+                        <p>Na maturidade, as vendas e os lucros se estabilizam. O produto já é conhecido pela maioria dos compradores potenciais, que já não trazem mais novos clientes.</p>
+                        <p>Os concorrentes também estão no cenário, e a disputa pela atenção dos consumidores se torna mais acirrada, o que pode também começar a baixar os lucros.</p>
+                    </li>
+
+                    <li><b>Declínio</b>
+                        <p>Como nada dura para sempre, chega a fase do declínio. Ela costuma acontecer devido a mudanças no mercado, como uma nova tecnologia, a evolução de comportamentos ou a entrada de um grande concorrente.</p>
+                        <p>Com os lucros cada vez menores, chega a hora de renovar o produto, investir em novas soluções ou simplesmente tirar o item do mercado (é preciso também saber a hora de sair de cena…).</p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div id="secao_video">
+                <div class="texto_video">
+                    <p>A arte da negociação por Diego Faleck - TEDxSantos </p>
+                </div>
+
+                <div class="video">
+                    <iframe width="420" height="315" 
+                        src="https://www.youtube.com/embed/8PDLTvJf46g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <!--Gambiarra porque a div do furmulário etava ficado em baixo da vid do vídeo-->
+            <div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+            </div>
+        
+            <!--Formulário de download do ebook-->
+
+            <div id="ebook">
+                <p>Baixar E-Book</p>
+                <form name="register" action="ebook/marketing.pdf" method="post" onsubmit="return validacao();" novalidate>
+                    <fieldset id="cadastrar">
+                        <legend> Cadastro </legend>
+                        
+                        <label for="nome"> Nome </label> 
+                        <input type="text" name="nome"/>
+            
+                        <label for="sobrenome"> Sobrenome </label> 
+                        <input type="text" name="sobrenome"/>
+            
+                        <label for="empresa"> Empresa </label> 
+                        <input type="text" name="empresa"/>
+                        
+                        <label for="cargo"> Cargo </label> 
+                        <input type="text" name="cargo"/>
+                        
+                        <label for="email"> Email </label>
+                        <input type="email" name="email"/>
+                        
+                        <button type="submit" name="enviar"> Cadastrar </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--Seção do Rodapé-->
+
+    <div id="rodape">
+        <a href="#home"><img src="img/icone_voltar.png" width="50px" height="50px"></a>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/duda.png" width="96" height="96">
+                        <p>Maria Eduarda Meregali</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/mariaeduarda.meregali" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/duda_meregali" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/igor.png" width="96" height="96">
+                        <p>Igor Oliveira de Sousa</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/igoroliveirads" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/igoroliveirads" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+    </body>
+</html>

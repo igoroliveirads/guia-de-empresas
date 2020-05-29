@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planejamento Estratégico</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="paginas.css" type="text/css">
+        <script src="validacao_forms.js"></script>
+    </head>
+
+    <body>
+        <!--Menu-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="marketing.html">Marketing</a>
+            <a href="vendas.html">Vendas</a>
+            <a href="planejamento.html" class="active">Planejamento Estratégico</a>
+            <a href="projetos.html">Gerenciamento de Projetos</a>
+        </div> 
+
+        <!-- seção home-->
+        <div id='home'>
+            <h1>Planejamento Estratégico</h1>
+        </div>
+
+        <!--seção de conteúdo-->
+        <div id="conteudo">
+            <!--texto-->
+            <div id="texto">
+
+                <h2>O que é Planejamento Estratégico?</h2>
+
+                <p>O planejamento estratégico funciona como um GPS, que aponta o melhor caminho para alcançar um destino. Em outras palavras, a empresa reconhece a situação atual e faz uma projeção de futuro, isto é, como ela deseja estar daqui a alguns anos.</p>
+                <p>Logo, o planejamento requer, em primeiro lugar, a definição de uma visão de futuro. Se você não sabe para onde quer ir, fica difícil estabelecer uma rota. A partir do destino desejado, monta-se o caminho que deverá ser seguido. Se no meio do caminho alguma rua estiver interditada, será preciso ajustar a rota.</p>
+            
+                <h3>Tipos de Planejamento Estratégico</h3>
+
+                <p>Embora não exista consenso quanto às nomenclaturas, o planejamento estratégico pode ser classificado de 3 formas: nível organizacional, profundidade e abordagem.</p>
+                <ol>
+                    <li><b>Nível Organizacional</b>
+                        <p>É a classificação feita de acordo com a posição hierárquica da empresa. Está dividida em três tipos de planejamento: estratégico, tático e operacional.</p>
+                        <p><b>Planejamento Estratégico</b>
+                            É aquele que se refere ao negócio ou a uma visão macro da organização. Se divide em:</p>
+                        <ul>
+                            <li>Planejamento Estratégico de Negócio: trata de um negócio específico. Mesmo em caso de empresas com mais de um negócio, é necessário fazer um plano para cada.</li>
+                            <li>Planejamento Estratégico Corporativo: aborda a estratégia de forma geral, estabelecendo linhas gerais para os vários negócios. Pode ser usado como complemento dos planejamentos de negócio, funcionando como guia.</li>
+                        </ul>
+
+                        <p><b>Planejamento Tático</b>
+                            Determina como a estratégia será executada em determinado contexto. Se divide em:</p>
+                            <ul>
+                                <li>Planejamento Estratégico de Unidade de Negócio: focado em uma subdivisão do negócio.</li>
+                                <li>Planejamento Estratégico de Unidade de Suporte: focado em uma área que presta serviços para outras unidades de negócio.</li>
+                                <li>Planejamento Estratégico Departamental: focado em uma área ou setor.</li>
+                                <li>Planejamento Estratégico Individual: focado em um indivíduo.</li>
+                            </ul>
+                        <p><b>Planejamento Operacional</b>
+                            Não é exatamente um tipo de planejamento estratégico, mas pode afetar a operação. Responsável por garantir que os processos da organização estejam em concordância com os objetivos estratégicos.</p>
+                        </li>
+                </ol>
+
+            </div>
+
+            <div id="secao_video">
+                <div class="texto_video">
+                    <p>Aula completa sobre Planejamento Estratégico. Funções da Administração e Planejamento</p>
+                </div>
+
+                <div class="video">
+                    <iframe width="420" height="315" 
+                        src="https://www.youtube.com/embed/SLzjeav8Vgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    
+                </div>
+            </div>
+
+            <!--Gambiarra porque a div do furmulário etava ficado em baixo da vid do vídeo-->
+            <div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+            </div>
+        
+            <!--Formulário de download do ebook-->
+
+            <div id="ebook">
+                <p>Baixar E-Book</p>
+                <form name="register" action="ebook/planejamento.pdf" method="post" onsubmit="return validacao();" novalidate>
+                    <fieldset id="cadastrar">
+                        <legend> Cadastro </legend>
+                        
+                        <label for="nome"> Nome </label> 
+                        <input type="text" name="nome"/>
+            
+                        <label for="sobrenome"> Sobrenome </label> 
+                        <input type="text" name="sobrenome"/>
+            
+                        <label for="empresa"> Empresa </label> 
+                        <input type="text" name="empresa"/>
+                        
+                        <label for="cargo"> Cargo </label> 
+                        <input type="text" name="cargo"/>
+                        
+                        <label for="email"> Email </label>
+                        <input type="email" name="email"/>
+                        
+                        <button type="submit" name="enviar"> Cadastrar </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <!--Seção do Rodapé-->
+
+    <div id="rodape">
+        <a href="#home"><img src="img/icone_voltar.png" width="50px" height="50px"></a>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/duda.png" width="96" height="96">
+                        <p>Maria Eduarda Meregali</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/mariaeduarda.meregali" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/duda_meregali" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="desenvolvedor">
+                        <img src="img/igor.png" width="96" height="96">
+                        <p>Igor Oliveira de Sousa</p>
+
+                        <div class="redes_sociais">
+                            <a href="https://www.linkedin.com/in/igoroliveirads/" target="_blank"><img src="img/icone_linkedin.png" width="50px" height="50px"></a>
+                            <a href="https://www.facebook.com/igoroliveirads" target="_blank"><img src="img/icone_facebook.png" width="50px"
+                                    height="50px"></a>
+                            <a href="https://www.instagram.com/igoroliveirads" target="_blank"><img src="img/icone_instagram.png" width="50px"
+                                    height="50px"></a>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+    </body>
+</html>
